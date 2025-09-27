@@ -158,7 +158,7 @@ Special thanks to **Dr. Sasikala Nagarajan** for mentorship and guidance.
 ## 🌐 Acknowledgments
 
 Presented at **IEEE CONIT 2025** and paper published at IEEE Xplore 
-here's the link https://ieeexplore.ieee.org/document/11166819/figures#figures
+here's the link - [https://ieeexplore.ieee.org/document/11166819/figures#figures](https://ieeexplore.ieee.org/document/11166819)
 ---
 
 ## 🔗 Useful Commands
