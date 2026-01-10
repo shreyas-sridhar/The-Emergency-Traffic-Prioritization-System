@@ -153,22 +153,10 @@ python3 app.py
 Special thanks to **Dr. Sasikala Nagarajan** for mentorship and guidance.
 
 ---
----
 
 ## 🌐 Acknowledgments
 
-Presented at **IEEE CONIT 2025** and paper published at IEEE Xplore 
+Presented at **IEEE CONIT 2025** and paper published at IEEE Xplore , 
 here's the link - [https://ieeexplore.ieee.org/document/11166819/figures#figures](https://ieeexplore.ieee.org/document/11166819)
----
 
-## 🔗 Useful Commands
-
-```bash
-# Kill app if stuck
-sudo fuser -k 5000/tcp
-
-# Check GPIO status
-gpio readall
-```
-
-*Made with ❤️ by team 19*
+*Made with ❤️ by team 19 @ DSU Batch of '25*
