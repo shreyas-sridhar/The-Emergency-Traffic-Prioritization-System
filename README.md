@@ -1,15 +1,13 @@
-# 🚨 The Emergency Traffic Prioritization System (ETPS)
+#  The Emergency Traffic Prioritization System (ETPS)
 
 A smart traffic signal system that detects emergency vehicles using RFID and dynamically alters traffic lights to prioritize their passage. Built with **Raspberry Pi**, **Arduino Nano**, **Python**, **SQLite**, and **Flask**, this system integrates **dual RFID readers**, a **web dashboard**, and **GPIO-based light controls**.
+
+## Project Demo
+https://github.com/user-attachments/assets/120f8f46-ff96-43b0-bcca-b93f127d5a4a
 
 ---
 
 ## 🧠 Project Highlights
-
-
-https://github.com/user-attachments/assets/120f8f46-ff96-43b0-bcca-b93f127d5a4a
-
-
 - 🟢 Dynamic traffic light control using severity-based RFID input  
 - 💾 Emergency cases logged to local SQLite DB  
 - 🧑‍⚕️ Dashboard for drivers to view nearby hospitals & case history  
@@ -18,7 +16,7 @@ https://github.com/user-attachments/assets/120f8f46-ff96-43b0-bcca-b93f127d5a4a
 
 ---
 
-## 🧰 Hardware Used
+## Hardware Used
 
 | Device         | Quantity | Notes                              |
 |----------------|----------|------------------------------------|
@@ -32,9 +30,9 @@ https://github.com/user-attachments/assets/120f8f46-ff96-43b0-bcca-b93f127d5a4a
 
 ---
 
-## 🔌 Hardware Connections
+##  Hardware Connections
 
-### 🔴 Signal 1 (Connected to Raspberry Pi)
+###  Signal 1 (Connected to Raspberry Pi)
 
 | LED Color | GPIO Pin (BOARD) |
 |-----------|------------------|
@@ -43,7 +41,7 @@ https://github.com/user-attachments/assets/120f8f46-ff96-43b0-bcca-b93f127d5a4a
 | Green     | 3                |
 | White (Emergency) | 40       |
 
-### 🟡 Signal 2 (Connected to Raspberry Pi)
+###  Signal 2 (Connected to Raspberry Pi)
 
 | LED Color | GPIO Pin (BOARD) |
 |-----------|------------------|
@@ -105,9 +103,9 @@ sudo raspi-config
 ```
 
 ### 4. Run the App
-
+ Run the priority code first, since that is the code controlling the signal cycle 
 ```bash
-cd The-Emergency-Traffic-Prioritization-System
+python3 brandnewpriority.py
 python3 app.py
 ```
 
