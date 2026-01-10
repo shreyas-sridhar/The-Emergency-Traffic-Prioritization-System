@@ -6,6 +6,10 @@ A smart traffic signal system that detects emergency vehicles using RFID and dyn
 
 ## 🧠 Project Highlights
 
+
+https://github.com/user-attachments/assets/120f8f46-ff96-43b0-bcca-b93f127d5a4a
+
+
 - 🟢 Dynamic traffic light control using severity-based RFID input  
 - 💾 Emergency cases logged to local SQLite DB  
 - 🧑‍⚕️ Dashboard for drivers to view nearby hospitals & case history  
