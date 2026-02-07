@@ -133,10 +133,6 @@ python3 app.py
 | timestamp   | TEXT    | Auto-filled         |
 
 ---
-
-
----
-
 ## 🙌 Team
 
 * Shreyas H Reddy
